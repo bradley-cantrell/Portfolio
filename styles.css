@@ -1,4 +1,50 @@
-* {
+/***** General Styles *******/
 
+/***** Header Styles ******/
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.nav {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+ul {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-inline-start: 0px;
+    align-content: center;
+}
+
+li {
+    list-style-type: none;
+    width: 100%;
+    display: block;
+    margin: 5px 0px;
+    background-color:#5DADE2;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 100%;
     
 }
+
+/***** Body Styles *****/
+
+/***** Footer Styles *****/
+
+/***** Clearfix *****/
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
