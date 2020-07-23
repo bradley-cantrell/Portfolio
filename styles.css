@@ -1,4 +1,20 @@
 /***** General Styles *******/
+html {
+    background-color: #E8DAEF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    
+    font-weight: bold;
+    color: white;
+}
 
 /***** Header Styles ******/
 
@@ -29,12 +45,16 @@ li {
     width: 100%;
     display: block;
     margin: 5px 0px;
-    background-color:#5DADE2;
+    background-color:#17CFF4;
     border-radius: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
     height: 100%;
     
+}
+
+li:hover {
+    box-shadow: -2px 5px darkorchid;
 }
 
 /***** Body Styles *****/
