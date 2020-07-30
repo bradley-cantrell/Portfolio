@@ -1,26 +1,30 @@
 /***** General Styles *******/
 html {
-    background-color: #231123;
+    background-color: #D0D1FF;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
 a {
     text-decoration: none;
-    color: #52528c;
+    color: #F7F7FF;
 }
 
 a:visited {
 
-    color: #372554;
+    color: #7100B8;
 }
 
 a:hover {
     
     font-weight: bold;
-    color: white;
+    
 }
 
+div {
+    color: black;
+
+}
 
 
 /***** Header Styles ******/
@@ -52,7 +56,7 @@ li {
     width: 100%;
     display: block;
     margin: 5px 0px;
-    background-color:#75DDDD;
+    background-color: #47AFFF;
     border-radius: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -61,12 +65,24 @@ li {
 }
 
 li:hover {
-    box-shadow: -2px 5px #613F75;
+    box-shadow: -2px 5px #00EDF5;
 }
 
 /***** Body Styles *****/
 
+.description {
+   padding-top: 25px;
+}
+
 /***** Footer Styles *****/
+
+/***** Layout *****/
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+
+}
 
 /***** Clearfix *****/
 .group:after {
