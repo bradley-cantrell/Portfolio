@@ -1,13 +1,18 @@
 /***** General Styles *******/
 html {
-    background-color: #E8DAEF;
+    background-color: #231123;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
 a {
     text-decoration: none;
-    
+    color: #52528c;
+}
+
+a:visited {
+
+    color: #372554;
 }
 
 a:hover {
@@ -15,6 +20,8 @@ a:hover {
     font-weight: bold;
     color: white;
 }
+
+
 
 /***** Header Styles ******/
 
@@ -45,7 +52,7 @@ li {
     width: 100%;
     display: block;
     margin: 5px 0px;
-    background-color:#17CFF4;
+    background-color:#75DDDD;
     border-radius: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -54,7 +61,7 @@ li {
 }
 
 li:hover {
-    box-shadow: -2px 5px darkorchid;
+    box-shadow: -2px 5px #613F75;
 }
 
 /***** Body Styles *****/
