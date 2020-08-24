@@ -95,6 +95,10 @@ ul {
     align-content: center;
 }
 
+body ul {
+    margin-bottom: 15px;
+}
+
 header li {
     list-style-type: none;
     width: 75%;
