@@ -31,6 +31,24 @@ form {
    padding-top: 15px;
 }
 
+h1 {
+    color: #FFFFFF;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+}
+
+h2 {
+    color: #E74B72;
+    font-size: 1.5em;
+    text-align: left;
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+}
+
 input {
     display: block;
     width: 35%;
@@ -43,6 +61,11 @@ label {
     width: 100%;
 
 
+}
+
+li {
+    color: #FFFFFF;
+    margin: 10px 0px;
 }
 
 
@@ -77,6 +100,7 @@ header li {
     width: 75%;
     display: block;
     margin: 5px auto;
+    font-size: 1em;
     
     
     background-color: #241E4E;
@@ -94,6 +118,14 @@ header li {
    padding-top: 25px;
 }
 
+#skills {
+    padding-top: 30px;
+}
+
+#support,
+#development {
+    margin: 20px 0px;
+}
 /**** Contact Form Styles *****/
 
 #message {
