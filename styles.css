@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-    color: #E74B72;
+    color: #FFFFFF;
     font-size: 1.5em;
     text-align: left;
     display: block;
@@ -96,7 +96,14 @@ ul {
     margin: auto;
     padding-inline-start: 0px;
     align-content: center;
-    box-shadow: 0px 8px 5px #000000;
+    box-shadow: 0px 8px 5px #1d2022;
+    
+}
+
+.skillsCard {
+    padding: 2.5px 0px 2.5px 0px;
+    box-shadow: 0px 0px 2px #000000, 6px 6px 2px #000000;
+    border: 1px solid #E74B72;
 }
 
 
