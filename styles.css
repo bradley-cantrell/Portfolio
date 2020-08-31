@@ -15,12 +15,15 @@ a:visited {
     color: #E74B72;
 }
 
+
 a:hover {
     
     font-weight: bold;
     color: #A594F9;
     
 }
+
+
 
 div {
     color: #FFFFFF;
@@ -66,6 +69,7 @@ label {
 li {
     color: #FFFFFF;
     margin: 10px 0px;
+    list-style-type: none;
 }
 
 
@@ -95,9 +99,6 @@ ul {
     align-content: center;
 }
 
-body ul {
-    margin-bottom: 15px;
-}
 
 header li {
     list-style-type: none;
@@ -143,6 +144,10 @@ header li {
    max-width: 600px;
 }
 
+body ul {
+    margin-bottom: 15px;
+}
+
 .contact-form {
     display: block;
     margin: 0 auto;
@@ -155,7 +160,7 @@ header li {
 /***** Layout *****/
 
 .wrapper {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
 
 }
